@@ -11,7 +11,7 @@
 /* background image styling */
 
 body{
-    background-image: url(bg2.jpg);
+    background-image: url("https://personalSite/bg2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: center;

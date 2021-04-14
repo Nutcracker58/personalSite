@@ -1,0 +1,65 @@
+/*  text stylyzing  */
+
+#siteName{
+    z-index: 5;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-left: 5%;   
+}
+
+
+/* background image styling */
+
+body{
+    background-image: url(/images/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: 80%;
+    background-color: #464646;
+}
+body, html{
+    margin: 0px;
+    padding:0p;
+    min-height: 100%;
+    height: 100%;
+}
+ 
+/*body wrapper to position footer*/
+
+#wrapper{
+    min-height: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+    height: 10%;
+}
+
+
+/*header and footer positioning */
+
+header{
+    z-index: -50;
+    background-color: #000000;
+    height: 10%;
+    min-width: 101%;
+    margin: -1%;
+    position: fixed;
+}
+
+#footer{
+    height: 10%;
+    padding: 0;
+}
+#footer-content{
+    background-color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    height: 15rem;
+    padding: 1%;
+    color: #ffffff;
+}
